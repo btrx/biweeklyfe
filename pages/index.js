@@ -1,5 +1,7 @@
 import Projects from "../components/projects";
-import Snowfall from 'react-snowfall';
+import Snowfall from 'react-snowfall'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
 
@@ -17,16 +19,16 @@ export default function Home() {
         </div>
         <div>
           <a href="https://twitter.com/Donikus_" className="mr-5">
-            <i aria-hidden className="fab fa-twitter fa-2x"></i>
+            <FontAwesomeIcon icon={faTwitter} className="h-7" />
           </a>
           <a href="https://www.facebook.com/kusuma.doni1" className="mr-5">
-            <i aria-hidden className="fab fa-facebook fa-2x"></i>
+            <FontAwesomeIcon icon={faFacebook} className="h-7" />
           </a>
           <a href="https://www.linkedin.com/in/kusumadoni77/" className="mr-5">
-            <i aria-hidden className="fab fa-linkedin fa-2x"></i>
+            <FontAwesomeIcon icon={faLinkedin} className="h-7" />
           </a>
           <a href="https://github.com/btrx" className="mr-5">
-            <i aria-hidden className="fab fa-github fa-2x"></i>
+            <FontAwesomeIcon icon={faGithub} className="h-7" />
           </a>
         </div >
       </footer>
