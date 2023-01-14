@@ -7,3 +7,10 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+.fa-twitter,
+.fa-facebook,
+.fa-linkedin,
+.fa-github {
+  color: white;
+}

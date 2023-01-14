@@ -11,10 +11,10 @@ export default function PrContainer({ src, alt, className }) {
         <section className={`${addclassName}`}>
             <div className="w-fit h-fit group">
                 <div className="relative overflow-hidden">
-                    <img className="h-[300px] w-full object-cover" src={addimgSrc} alt={addimgAlt} />
+                    <img className="md:h-[300px] w-fill object-fill md:object-cover" src={addimgSrc} alt={addimgAlt} />
                     <div className="absolute h-full w-full bg-gray-500/90 flex items-center justify-around -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                        <Btn src='eye.png' href='#'>Preview</Btn>
-                        <Btn src='github.png' href='#'>Github</Btn>
+                        <Btn src='eye.png' href='https://easy-bank-sand.vercel.app/'>Preview</Btn>
+                        <Btn src='github.png' href='https://github.com/btrx/FrontendMentor-EasyBank'>Github</Btn>
                     </div>
                 </div>
             </div>

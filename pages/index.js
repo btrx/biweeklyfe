@@ -11,6 +11,25 @@ export default function Home() {
         <div className="font-sans text-sm md:text-sm lg:text-lg mt-5 text-center text-gray-400">THIS IS A PROJECT WHERE I'AM DEVELOP A NEW FRONTEND WEBSITE EVERY TWO WEEKS</div>
       </div>
       <Projects />
+      <footer className="w-3/12 mx-auto my-10 text-center">
+        <div className='my-2'>
+          <p className="text-white">FIND ME AT</p>
+        </div>
+        <div>
+          <a href="https://twitter.com/Donikus_" className="mr-5">
+            <i aria-hidden className="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://www.facebook.com/kusuma.doni1" className="mr-5">
+            <i aria-hidden className="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/kusumadoni77/" className="mr-5">
+            <i aria-hidden className="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://github.com/btrx" className="mr-5">
+            <i aria-hidden className="fab fa-github fa-2x"></i>
+          </a>
+        </div >
+      </footer>
     </>
   )
 }

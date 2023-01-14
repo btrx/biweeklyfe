@@ -11,8 +11,11 @@ const poppins = Rowdies({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={`${poppins.variable} font-sans`}>
-      <Component {...pageProps} />
-    </main>
+    <>
+      <main className={`${poppins.variable} font-sans`}>
+        <Component {...pageProps} />
+      </main>
+      <footer />
+    </>
   )
 }
