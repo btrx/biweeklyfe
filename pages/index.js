@@ -1,5 +1,5 @@
 import Projects from "../components/projects";
-import Snowfall from 'react-snowfall'
+import Snowfall from 'react-snowfall';
 
 export default function Home() {
 
